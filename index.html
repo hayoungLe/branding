@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>branding site</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!--font link-->
+  <link href="https://fonts.cdnfonts.com/css/book-antiqua" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/staatliches-2" rel="stylesheet" />
+  <!--js link-->
+  <script src="command.js" defer></script>
+  <script src="jquery-3.6.4.min.js"></script>
+  <script src="scroll.js" defer></script>
+
+  <!--스크롤트리거 link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+  <div style="cursor: pointer" onclick="window.scrollTo(0,0);" class="top-btn">
+    <img src="top-btn.svg" alt="top" />
+  </div>
+
+  <article class="all-con">
+    <div class="top-txt">
+      <p>Newspaper</p>
+      <p>page 1</p>
+    </div>
+
+    <div class="title-box">
+      <p class="top-Portfolio">Portfolio</p>
+      <div>
+        <p class="top-webdesign">WEB DESIGN</p>
+        <p class="bottom-years">2023</p>
+      </div>
+    </div>
+
+    <div class="Personality-top">
+      <div class="first-txt">
+        <p>Personality :</p>
+      </div>
+      <div class="center-txt">
+        <div></div>
+        <p>communicative</p>
+      </div>
+      <div>
+        <div></div>
+        <p>creative</p>
+      </div>
+    </div>
+    <div class="Personality-bottom">
+      <div class="first-txt">
+        <div></div>
+        <p>diligent</p>
+      </div>
+      <div class="center-txt">
+        <div></div>
+        <p>proactive</p>
+      </div>
+      <div>
+        <div></div>
+        <p>confidence</p>
+      </div>
+    </div>
+
+    <section class="profile">
+      <div class="introduce">
+        <div class="introduce-top">
+          <img src="name_banner.svg" alt="LEEHAYOUNG" />
+        </div>
+
+        <div class="introduce-bottom">
+          <img src="introduce_banner.svg" alt="introduce" />
+        </div>
+      </div>
+
+      <div class="spec">
+        <div>
+          <div class="profile-picture">
+            <img src="profile.png" alt="profilepicture">
+          </div>
+          <div class="profile-spec">
+            <p>Lee Hayoung</p>
+            <p>1996.05.28</p>
+            <p>Chung-ang uni. Craft design</p>
+            <div>
+              <p>photoshop</p>
+              <div class="gaze-1">
+                <div class="gaze-img">
+                  <img src="red-round-left.svg" alt="" />
+                </div>
+                <div class="gaze-line"></div>
+              </div>
+              <p>illustration</p>
+              <div class="gaze-2">
+                <div class="gaze-img">
+                  <img src="red-round-right.svg" alt="" />
+                </div>
+                <div class="gaze-line"></div>
+              </div>
+              <p>drawing</p>
+              <div class="gaze-3">
+                <div class="gaze-img">
+                  <img src="red-round-left.svg" alt="" />
+                </div>
+                <div class="gaze-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume">
+      <h2>Resume</h2>
+      <div>
+        <div class="certificate">
+          <div class="top">
+            <p>certificate</p>
+          </div>
+          <div class="btn">
+            <div class="btn-left">
+              <p>2015</p>
+              <p class="btn-left-16">2018</p>
+              <p class="btn-left-16">2020</p>
+              <p>2023</p>
+            </div>
+            <div class="btn-right">
+              <p>중앙대학교 입학</p>
+              <p>ACA 포토샵, 일러스트 자격증 취득</p>
+              <p>운전 면허 2종 보통 취득</p>
+              <p>디자인·공예 중등학교 정교사(2급) 취득</p>
+              <p>중앙대학교 공예학과 졸업</p>
+              <p>웹 디자인 기능사 자격증 취득</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="top">
+            <p>activity</p>
+          </div>
+          <div class="btn">
+            <div class="btn-left">
+              <p>2017</p>
+              <p class="btn-left-16">2018</p>
+              <p>2019</p>
+            </div>
+            <div class="btn-right">
+              <p>연결전 전시 참여</p>
+              <p>어도커블전 전시 참여</p>
+              <p>공예트렌드페어 참여 - 리프로 케비넷</p>
+              <p>중앙대학교 졸업전시 새벽전 전시 참여</p>
+              <p>공예트렌드페어 참여 - studio. 녹는 점</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="awards">
+          <div class="top">
+            <p>awards</p>
+          </div>
+          <div class="btn">
+            <div class="btn-left">
+              <p class="btn-left-16">2019</p>
+              <p>2020</p>
+            </div>
+            <div class="btn-right">
+              <p>대한텍스타일대전 인테리어부문 입선</p>
+              <p>한국 미술 국제대전 조각 부문 장려상</p>
+              <p>중앙대학교 공예학과 수석 졸업 표창</p>
+              <p>국제 주얼리 디자인 공모전</p>
+              <p>우수 디자이너상</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-first">
+      <div class="redesign-head">
+        <div class="redesign-1st-txt">
+          <p>CHAPTER</p>
+        </div>
+        <div class="redesign-txt-con">
+          <div class="first-txt">
+            <div></div>
+            <p>redesign</p>
+          </div>
+          <div>
+            <div></div>
+            <p>clone page</p>
+          </div>
+          <div>
+            <div></div>
+            <p>ux · ui design</p>
+          </div>
+          <div>
+            <div></div>
+            <p>icon · banner</p>
+          </div>
+          <div class="last-txt">
+            <div></div>
+            <p>etc</p>
+          </div>
+        </div>
+      </div>
+      <div class="redesign-first-banner">
+        <div class="img-box">
+          <img src="Group 193.png" alt="라벨">
+          <a href="https://hayoungle.github.io/che/" target="_blank">
+            <img class="scroll" src="redesign-banner-1_1.jpg" alt="redesign-banner-1" />
+          </a>
+        </div>
+      </div>
+
+      <div class="orignal-site-con">
+        <div class="orignal-site">
+          <a href="https://www.chevrolet.co.kr/?gclid=Cj0KCQjw4NujBhC5ARIsAF4Iv6c9THlyeVdwjgMGIATd01_Y-rFQHPJU_pVov2Ux55yvI5QBpEsjppYaAraxEALw_wcB&gclsrc=aw.ds"
+            target="_blank">
+            <span>orignal site view</span>
+            <img src="orginal-site-arrow.svg" alt="go" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="clone-page">
+      <h2>Clone page</h2>
+      <div class="clone-page-site">
+        <div>
+          <a href="https://hayoungle.github.io/cloneM/" target="_blank">
+            <img src="market.png" alt="clone-page1" />
+          </a>
+        </div>
+        <div>
+          <a href="https://hayoungle.github.io/cloneH/" target="_blank">
+            <img src="hey.png" alt="clone-page2" />
+          </a>
+        </div>
+        <div>
+          <a href="https://hayoungle.github.io/cloneV/" target="_blank">
+            <img src="vhome.png" alt="clone-page3" />
+          </a>
+        </div>
+      </div>
+      <div class="orignal-site">
+        <p>orignal-site</p>
+        <div>
+          <a href="https://www.kurly.com/main" target="_blank"><span>1</span></a>
+        </div>
+        <div>
+          <a href="http://heylisten.co.kr/#second" target="_blank"><span>2</span></a>
+        </div>
+        <div>
+          <a href="https://www.vhom.co.kr/?utm_source=naver_bs_p&utm_medium=cpt&utm_campaign=bau_brand&utm_content=brd$3d$230227&utm_term=homelink&NaPm=ct%3Dlicrmm6w%7Cci%3D0zK0003Rd7vyRakimfnN%7Ctr%3Dbrnd%7Chk%3D24f953efd92a4e9545bd6887f3480352d2e76d97"
+            target="_blank"><span>3</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-second">
+      <div class="redesign-second-banner">
+        <a href="https://hayoungle.github.io/ari/" target="_blank">
+          <img src="redesign-banner-2.png" alt="" />
+        </a>
+      </div>
+
+      <div class="orignal-site-con">
+        <div class="orignal-site">
+          <a href="https://www.aritaum.com/main.do" target="_blank">
+            <span>orignal site view</span>
+            <img src="orginal-site-arrow.svg" alt="go" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="etc-con">
+      <div class="etc-head">
+        <div class="etc-head-1st-txt">
+          <p>Visual art</p>
+        </div>
+        <div class="etc-txt-con">
+          <div class="first-txt">
+            <div></div>
+            <p>UX / UI</p>
+          </div>
+          <div>
+            <div></div>
+            <p>Banner</p>
+          </div>
+          <div>
+            <div></div>
+            <p>Icons</p>
+          </div>
+
+          <div class="last-txt">
+            <div></div>
+            <p>Etc</p>
+          </div>
+        </div>
+      </div>
+      <div class="etc-ticket">
+        <ul class="etc-ticket-con">
+          <li class="ticket-left">
+            <img src="ticket1-1.png" alt="ticket1" />
+          </li>
+          <li class="ticket-right">
+            <a href="https://hayoungle.github.io/uxui/" target="_blank">
+              <img src="ticket1-2.png" alt="ticket1" />
+            </a>
+          </li>
+        </ul>
+        <ul class="etc-ticket-con">
+          <li class="ticket-left">
+            <img src="ticket2-1.png" alt="ticket2" />
+          </li>
+          <li class="ticket-right">
+            <a href="https://hayoungle.github.io/bannericons/" target="_blank">
+              <img src="ticket2-2.png" alt="ticket2" />
+            </a>
+          </li>
+        </ul>
+        <ul class="etc-ticket-con">
+          <li class="ticket-left">
+            <img src="ticket3-1.png" alt="ticket3" />
+          </li>
+          <li class="ticket-right">
+            <a href="https://hayoungle.github.io/etcpage/" target="_blank">
+              <img src="ticket3-2.png" alt="ticket3" />
+            </a>
+          </li>
+        </ul>
+        <div class="cutting">
+          <div>
+            <p><img src="red-arrow.svg" alt="" /></p>
+            <p>cutting</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>
